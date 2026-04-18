@@ -1,0 +1,17 @@
+# Environnement virtuel
+venv/
+
+# Fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables d'environnement
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# MCP
+.mcp.json
