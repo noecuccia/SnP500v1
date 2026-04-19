@@ -2,6 +2,7 @@ import yfinance as yf
 from flask import Flask
 
 app = Flask(__name__)
+
 @app.route("/")
 def index():
     sp500 = yf.Ticker("^GSPC")
